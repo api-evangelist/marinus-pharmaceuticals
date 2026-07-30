@@ -1,8 +1,28 @@
 aid: marinus-pharmaceuticals
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/marinus-pharmaceuticals.png
 name: Marinus Pharmaceuticals
-description: Marinus Pharmaceuticals is a company surfaced as a portfolio company of canaan-partners and
-  added to the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment
-  pipeline.
+description: >-
+  Marinus Pharmaceuticals is a pharmaceutical company known for developing ganaxolone
+  (brand name ZTALMY), a neuroactive steroid and GABA-A receptor modulator approved for the
+  treatment of seizures associated with CDKL5 deficiency disorder (CDD). The company operated
+  in the rare-disease and epilepsy space of the life-sciences industry. As of 2026 its
+  corporate domain (marinuspharma.com) redirects to Immedica Pharma (immedicaus.com),
+  reflecting the acquisition of Marinus and its ganaxolone franchise. Marinus was surfaced in
+  the API Evangelist network as a portfolio company of Canaan Partners. As a clinical- and
+  commercial-stage pharmaceutical company it does not publish a public developer API, SDKs, or
+  machine-readable API surface; this profile therefore captures corporate identity and domain
+  security signals only.
 url: https://raw.githubusercontent.com/api-evangelist/marinus-pharmaceuticals/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -12,12 +32,31 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
+- Pharmaceuticals
+- Life Sciences
+- Biotechnology
+- Healthcare
+- Rare Disease
+- Epilepsy
+- Neurology
 apis: []
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+common:
+- type: Website
+  url: https://www.marinuspharma.com
+- type: Company
+  url: https://www.immedicaus.com/en
+- type: DomainSecurity
+  url: security/marinus-pharmaceuticals-domain-security.yml
+x-enrichment:
+  date: '2026-07-20'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
